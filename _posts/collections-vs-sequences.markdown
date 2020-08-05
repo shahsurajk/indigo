@@ -1,28 +1,56 @@
 ---
-title: "Markdown Extra Components"
+title: "Collections vs Sequences in Kotlin"
 layout: post
-date: 2016-02-24 22:48
-image: /assets/images/markdown.jpg
-headerImage: false
+date: 2020-04-13 22:48
+image: /assets/images/collections-vs-sequences-cover.jpeg
+headerImage: true
 tag:
-- markdown
-- components
-- extra
+- kotlin
+- programming
+- learning
 category: blog
-author: jamesfoster
-description: Markdown summary with different options
+author: shahsurajk
+description: "A war of use-cases between two feature rich APIs in Kotlin namely the `Collections` and the `Sequences` API"
 ---
 
+A deep-dive on which API to select when working with a collection of data, covering points from Memory footprint to mutation of the underlying data structure to the point that Sequences don't inline the lambdas thus being a problem on low memory systems.
+
+**The article dives into:**
+* Similarities
+* Differences
+   * a. Operation Behavior
+   * b. Memory footprint
+   * c. Length
+   * d. Collection mutations
+   * e. States
+   * f. Inlining
+* Extra points on what to choose
+* Verdict
+
+> This article was originally published at ProAndroidDev and still resides there. 
+> 
+> Checkout the links sections for links of the same. 
+
+### Important links: 
+* Presentation link: https://bit.ly/collections-vs-sequences
+* Blog on the same: https://proandroiddev.com/collections-vs-sequences-war-of-use-cases-1f2ca06a8ac4
 ## Summary:
 
 You can pick as item to see how to apply in markdown.
 
 #### Especial Elements
+- [Summary:](#summary)
+    - [Especial Elements](#especial-elements)
+    - [External Elements](#external-elements)
 - [Evidence](#evidence)
-- [Side-by-Side](#side-by-side)
+- [Side-by-side](#side-by-side)
 - [Star](#star)
 - [Especial Breaker](#especial-breaker)
 - [Spoiler](#spoiler)
+- [Gist](#gist)
+- [Codepen](#codepen)
+- [Slideshare](#slideshare)
+- [Videos](#videos)
 
 #### External Elements
 - [Gist](#gist)
